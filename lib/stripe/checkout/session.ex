@@ -75,6 +75,7 @@ defmodule Stripe.Session do
           :display_items => list(line_item),
           :livemode => boolean(),
           :locale => boolean(),
+          :metadata => Stripe.Types.metadata(),
           :mode => String.t(),
           :payment_intent => Stripe.id() | Stripe.PaymentIntent.t() | nil,
           :payment_method_types => list(String.t()),
