@@ -95,6 +95,7 @@ defmodule Stripe.Session do
     :display_items,
     :livemode,
     :locale,
+    :metadata,
     :mode,
     :payment_intent,
     :payment_method_types,
